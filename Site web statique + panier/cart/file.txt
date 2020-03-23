@@ -1,0 +1,9 @@
+numero id :1 ; name_produit: Gaming Keyboard  ; nombre de produit: 1 ; prix: 20.99 $ 
+numero id :2 ; name_produit: Asus ; nombre de produit: 12 ; prix: 649.99 $ 
+numero id :3 ; name_produit: Gaming Mouse  ; nombre de produit: 1 ; prix: 13.99 $ 
+numero id :4 ; name_produit: Gaming Headset  ; nombre de produit: 10 ; prix: 29.99 $ 
+numero id :1 ; name_produit: Gaming Keyboard  ; nombre de produit: 12 ; prix: 20.99 $ 
+numero id :2 ; name_produit: Asus ; nombre de produit: 15 ; prix: 649.99 $ 
+numero id :3 ; name_produit: Gaming Mouse  ; nombre de produit: 1 ; prix: 13.99 $ 
+numero id :4 ; name_produit: Gaming Headset  ; nombre de produit: 1 ; prix: 29.99 $ 
+prix total est :0
