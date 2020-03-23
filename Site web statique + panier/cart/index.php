@@ -1,8 +1,8 @@
 <?php 
 
    session_start();
-   $db=new PDO('mysql:host=localhost;dbname=php','root','');
-   $reponse=$db->query('select * from Produits');
+   $db=new PDO('mysql:host=localhost;dbname=id12948400_php','id12948400_root','Mama199775026');
+   $reponse=$db->query("select * from Produits");
  
    if(! isset($_POST["envoi"])) $_POST["envoi"]="";
    if(! isset($_SESSION["cart"])) $_SESSION["cart"]=[];
