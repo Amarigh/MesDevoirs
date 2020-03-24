@@ -1,3 +1,15 @@
+
+devoire 2 debase de données
+
+binome:
+- Amarigh Mustapha  G1  
+-Farid Elkharrazi   G2
+
+
+
+
+
+
 -------  Question  C7): --------------------------------------------------------------------
 Question:----
 
