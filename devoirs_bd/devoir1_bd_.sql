@@ -53,6 +53,7 @@ Reponse:---
 		end if;
 
 		end loop;
+	close C_pilote ;	
 
 	END;
 
@@ -99,7 +100,7 @@ Reponse:----
 
 		raise v_inconnue;
 		 
-		 close 
+		 close c_pilote ;
 
 	EXCEPTION 
 		 WHEN v_connue THEN
