@@ -26,12 +26,12 @@ function email($log){
         {
             return false ;
         }
-    else if (!preg_match('/[0-9]/',$pass) ||!preg_match('/[A-Z]/',$pass) || !preg_match('/[*&%$#@!?]/',$pass))
+    if (!preg_match('/[0-9]/',$pass) ||!preg_match('/[A-Z]/',$pass) || !preg_match('/[*&%$#@!?]/',$pass))
         {
             return false ;
         }
-        else 
-        return true;
+         
+     return true;
 
 }
 
