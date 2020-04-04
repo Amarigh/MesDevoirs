@@ -1,0 +1,16 @@
+20121109-000001 | cli1001|11-09-2001|sucre morceux|1|6|13-9-2012|1, rue des colibris agadir
+20121109-000001 | cli1001|11-09-2001|sprite|7|6|13-9-2012|1, rue des colibris agadir
+20121109-000001 | cli1001|11-09-2001|fanta|2|6|13-9-2012|1, rue des colibris agadir
+20121109-000001 | cli1001|11-09-2001|sucre morceux|3|6|13-9-2012|1, rue des colibris agadir
+20121109-000001 | cli1001|11-09-2001|sucre morceux|1|6|13-9-2012|1, rue des colibris agadir
+20121109-000002 | cli1004|11-09-2001|sucre morceux|2|6|13-9-2012|1, rue de l'universite marrakech
+20121109-000002 | cli1004|11-09-2001|eau sidi ali|4|6|13-9-2012|1, rue de l'universite marrakech
+20121109-000002 | cli1004|11-09-2001|sucre morceux|1|6|13-9-2012|1, rue de l'universite marrakech
+20121109-000002 | cli1004|11-09-2001|sucre morceux|1|6|13-9-2012|1, rue de l'universite marrakech
+20121109-000002 | cli1004|11-09-2001|sucre morceux|1|6|13-9-2012|1, rue de l'universite marrakech
+20121109-000001 | cli1001|11-09-2001|sucre morceux|1|6|13-9-2012|1, rue des colibris agadir
+20121109-000001 | cli1001|11-09-2001|sprite|7|6|13-9-2012|1, rue des colibris agadir
+20121109-000001 | cli1001|11-09-2001|fanta|2|6|13-9-2012|1, rue des colibris agadir
+20121109-000002 | cli1004|11-09-2001|sucre morceux|1|6|13-9-2012|1, rue de l'universite marrakech
+20121109-000002 | cli1004|11-09-2001|lit|1|6|13-9-2012|1, rue de l'universite marrakech
+20121109-000002 | cli1004|11-09-2001|coca|1|6|13-9-2012|1, rue de l'universite marrakech
