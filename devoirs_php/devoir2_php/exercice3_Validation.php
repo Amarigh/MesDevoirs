@@ -15,19 +15,7 @@ binom:
 
 
 
-<?php 
 
-
-if(isset($_POST['ok'])){
-
-
-
-
-	
-}
-
-
- ?>
 
  <!DOCTYPE html>
  <html>
