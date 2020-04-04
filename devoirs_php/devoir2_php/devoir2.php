@@ -182,7 +182,7 @@ function explode_($string,$car){
 					   	<option value="1" selected="selected">1</option>
 					   	<?php 
 
-                        // avec la boucle for en ajoute tous les options de jours , mois et années 
+                        // avec la boucle for on ajoute tous les options de jours , mois et années possible
 
 					   	for ($i=2; $i <32 ; $i++) { 
 					   		?>
@@ -265,7 +265,7 @@ function explode_($string,$car){
   <?php 
 
   // la date est valide si la l'anne >= 2000
-  // en utilise supervariable $_POST[]
+  // on utilise supervariable $_POST[]
 
 if($_POST['sl3']>=2000){
 
@@ -323,7 +323,7 @@ else { ?>
 
 <?php 
 // la fonction email permet de valider email
-// les condition sur email est  
+// les conditions sur email est  
 // ????@???.????
 
 function email($log){
@@ -334,11 +334,11 @@ function email($log){
 
 
 //  la fonction mpasse permet de valider mot de passe 
-// les condition son
-// - au moin 8 carractère
-// - contien un nombre [0-9]
-//- contien un carractère special [*&%$#@!?]
-// - contien un carractère Majuscule [A-Z]
+// les conditions son
+// - au moin 8 carractères
+// - contient un nombre [0-9]
+//- contient un carractère special [*&%$#@!?]
+// - contient un carractère Majuscule [A-Z]
 
   function mpasse($pass)
  {
@@ -415,7 +415,7 @@ function email($log){
 
         else{
 
-        	echo "mode passe  ou format d'email incorrecte ";
+        	echo "mot de  passe  ou bien format d'email incorrecte ";
         }
  ?>
 </body>
