@@ -14,6 +14,11 @@ binom:
 
 
 >>
+Ecrire une procédure «ajoutPilote» qui permet la création d’un nouveau pilote.
+Action : Insertion du pilote dans la table pilote
+Exception : Code pilote dupliqué
+Affichage : Pilote crée avec succès ou erreur exception
+  
 
 Create Or REPLACE procedure AjoutePilote(nopilote_  in  pilote.nopilot%type, nom_ in pilote.nom%type , ville_ in pilote.ville%type , sal_ in pilote.sal%type, comm_ in pilote.comm%type, embauche_ in pilote.embauche%type)
 as
@@ -44,6 +49,11 @@ as
 
 
  >>>>
+
+Ecrire une procédure «supprimePilote» qui permet la suppression d’un pilote à partir de son numéro.
+Action : Suppression du pilote de la table pilote
+Exception : Pilote n’existe pas ou pilote affecté à un vol
+Affichage : Pilote supprimé avec succès ou erreur exception
 
 
 Create Or REPLACE procedure SuprimerPilote(nopilote_  in  pilote.nopilot%type)
@@ -92,6 +102,10 @@ as
 
 
 >>>>
+Ecrire une procédure stockée nommé «affichePilote_N » permettant d’afficher les noms des
+n premiers pilote de la table PILOTE. La variable n devra être le paramètre d’entrée.
+Gérer le cas ou n est plus grand que le nombre de n_uplets de la table PILOTE
+
 
 create or replace procedure affichePilote_N(nombre_ in int ) 
 as 
@@ -125,6 +139,10 @@ as
  
 
  ------------------------ Function ------------------------
+
+Ecrire une fonction « nombreMoyenHeureVol » qui permet de calculer le nombre moyen
+d’heures de vol des avions appartenant à une famille dont le code est transmis en paramètres.
+Gérer toutes les exceptions possibles
 
 
  create or replace  function nombreMoyenHeureVol(type_ in avion.type%type) RETURN number 
