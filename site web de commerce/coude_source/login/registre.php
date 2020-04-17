@@ -99,7 +99,19 @@ h3{text-align: center;}
     
     ?>
     <li style="color:red;">email obligatoir</li>
-    <?php }} ?>
+    <?php
+    if(!preg_match('/.+@.+/', $_POST['email'])){
+    $i=0;
+  ?>
+
+  <ol type="squart" style="color:red;">
+    <li>email mal format</li>
+       <ol><li>email dois confirmer le format ..@...</li></ol>
+</ol>       
+    
+    <?php 
+    
+    }}} ?>
 
     <label for="pword">Mod de Passe</label>
     <input type="Password" id="pword" value="<?php 
@@ -127,6 +139,23 @@ h3{text-align: center;}
     <input type="text" id="tel" value="<?php 
     if(isset($_POST['ok']) ){echo $_POST['tel'];}?>" name="tel" placeholder="Ton phon..">
   
+
+ <?php 
+    if(isset($_POST['ok']) ){
+        if(empty($_POST['tel'])){
+            $i=0;
+    
+    ?>
+    <li style="color:red;">téléphon  obligatoir</li>
+    <?php }
+    
+    else if(!preg_match('/^[0-9]{10}$/', $_POST['tel']) || preg_match('/[a_zA-Z]/', $_POST['tel']) ){
+        $i=0;
+        
+     ?>
+    
+  <li style="color:red;">téléphon mal format</li>
+  <?php }}?>
     <input type="submit" value="Submit" name="ok">
     <?php 
     if(isset($_POST['ok']) ){
