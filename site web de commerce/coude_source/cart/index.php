@@ -1,7 +1,20 @@
 <?php 
 session_start();
-$db=new PDO('mysql:host=localhost;dbname=id12948400_php','id12948400_root','Mama199775026');
-$reponse=$db->query("select * from Produit");
+
+   try{
+      $db=new PDO('mysql:host=localhost;dbname=id12948400_php','id12948400_root','Mama199775026');
+      }
+   catch(PDOException $e){
+      echo $e->getMessage();
+   }
+
+
+
+   
+   $reponse=$db->prepare('select * from Produit');
+
+     $reponse->execute();
+
 
    if(! isset($_POST["envoi"])) $_POST["envoi"]="";
    if(! isset($_SESSION["cart"])) $_SESSION["cart"]=[];
