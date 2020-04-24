@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+ 		*{
+ 			font-family: 'Titillium Web', sans-serif;
+ 		}
+ 		
+ 			
+ 			 table,th,tr{
+ 			 	text-align: center;
+ 			 }
+ 			 .title2{
+ 			 	text-align: center;
+ 			 	color: #66afe9;
+ 			 	background-color: #efefef;
+ 			 	padding: 2%;
+ 			 }
+ 			 h2{
+ 			 	text-align: center;
+ 			 	color: #66afe9;
+ 			 	background-color: #efefef;
+ 			 	padding: 2%;
+
+ 			 }
+ 			 table th{
+ 			 	background-color: #efefef;
+ 			 }
+ 			
+ 			 
